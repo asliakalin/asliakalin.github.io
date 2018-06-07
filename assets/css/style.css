@@ -3693,6 +3693,7 @@
 /* Footer */
 
 	#footer {
+		display: inline-block;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3771,9 +3772,6 @@
 			}
 
 		}
-
-
-	
 
 /* Wrapper */
 
