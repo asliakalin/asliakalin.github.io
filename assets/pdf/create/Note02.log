@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  21 JUN 2018 14:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  30 AUG 2018 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -670,16 +670,111 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 24.
+LaTeX Font Info:    Try loading font information for U+msa on input line 23.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 24.
+LaTeX Font Info:    Try loading font information for U+msb on input line 23.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]|\OT1/cmr/m/n/10.95 Assume $\OMS/cmsy/m/n/10.95 :\OML/cmm/m/it/10.95 Q$\OT1/c
+mr/m/n/10.95 , tweak
+ []
+
+
+Underfull \hbox (badness 7099) in paragraph at lines 34--34
+\OT1/cmr/m/n/10.95 show con-tra-dic-tion by
+ []
+
+
+Underfull \hbox (badness 3428) in paragraph at lines 34--34
+\OT1/cmr/m/n/10.95 the in-di-vid-ual im-pli-ca-
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 34--34
+\OT1/cmr/m/n/10.95 tions has to be True,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+[]|\OT1/cmr/m/n/10.95 list all of ex-haus-tive
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/10.95 -When there is only a
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 40--40
+\OT1/cmr/m/n/10.95 sin-gle state-ment to be
+ []
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 40--41
+[]|\OT1/cmr/m/n/10.95 -Usually when noth-ing
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 40--41
+\OT1/cmr/m/n/10.95 do all proofs us-ing by
+ []
+
+
+Underfull \hbox (badness 6625) in paragraph at lines 44--45
+[]|\OT1/cmr/m/n/10.95 - spe-cific def-i-ni-tions
+ []
+
+
+Underfull \hbox (badness 5161) in paragraph at lines 44--45
+\OT1/cmr/m/n/10.95 fect square," "odd,"
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 44--45
+\OT1/cmr/m/n/10.95 di-ately gives you in-
+ []
+
+
+Underfull \hbox (badness 3668) in paragraph at lines 47--49
+\OT1/cmr/m/n/10.95 in-for-ma-tion to move
+ []
+
+
+Underfull \hbox (badness 7047) in paragraph at lines 47--49
+\OT1/cmr/m/n/10.95 ger/smaller than 6"
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 47--49
+\OT1/cmr/m/n/10.95 (cov-ers all n big-ger
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 51--54
+\OMS/cmsy/m/n/10.95 !$ \OT1/cmr/m/n/10.95 "no-body has same
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 num-ber of friends" $\OMS/cmsy/m/n/10.95 !$
+ []
+
+
+Underfull \hbox (badness 6412) in paragraph at lines 55--58
+\OT1/cmr/m/n/10.95 all pos-si-ble cases are
+ []
+
+
+Overfull \hbox (40.1461pt too wide) in paragraph at lines 23--60
+[] 
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -689,123 +784,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 131--131
-[]|\OT1/cmr/m/n/10.95 Assume $\OMS/cmsy/m/n/10.95 :\OML/cmm/m/it/10.95 Q$\OT1/c
-mr/m/n/10.95 , tweak
- []
-
-
-Underfull \hbox (badness 7099) in paragraph at lines 132--132
-\OT1/cmr/m/n/10.95 show con-tra-dic-tion by
- []
-
-
-Underfull \hbox (badness 3428) in paragraph at lines 132--132
-\OT1/cmr/m/n/10.95 the in-di-vid-ual im-pli-ca-
- []
-
-
-Underfull \hbox (badness 2221) in paragraph at lines 132--132
-\OT1/cmr/m/n/10.95 tions has to be True,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
-[]|\OT1/cmr/m/n/10.95 list all of ex-haus-tive
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 138--138
-[]|\OT1/cmr/m/n/10.95 -When there is only a
- []
-
-
-Underfull \hbox (badness 1845) in paragraph at lines 138--138
-\OT1/cmr/m/n/10.95 sin-gle state-ment to be
- []
-
-
-Underfull \hbox (badness 3646) in paragraph at lines 138--139
-[]|\OT1/cmr/m/n/10.95 -Usually when noth-ing
- []
-
-
-Underfull \hbox (badness 1231) in paragraph at lines 138--139
-\OT1/cmr/m/n/10.95 do all proofs us-ing by
- []
-
-
-Underfull \hbox (badness 6625) in paragraph at lines 142--143
-[]|\OT1/cmr/m/n/10.95 - spe-cific def-i-ni-tions
- []
-
-
-Underfull \hbox (badness 5161) in paragraph at lines 142--143
-\OT1/cmr/m/n/10.95 fect square," "odd,"
- []
-
-
-Underfull \hbox (badness 1342) in paragraph at lines 142--143
-\OT1/cmr/m/n/10.95 di-ately gives you in-
- []
-
-
-Underfull \hbox (badness 3668) in paragraph at lines 145--147
-\OT1/cmr/m/n/10.95 in-for-ma-tion to move
- []
-
-
-Underfull \hbox (badness 7047) in paragraph at lines 145--147
-\OT1/cmr/m/n/10.95 ger/smaller than 6"
- []
-
-
-Underfull \hbox (badness 3803) in paragraph at lines 145--147
-\OT1/cmr/m/n/10.95 (cov-ers all n big-ger
- []
-
-
-Underfull \hbox (badness 3439) in paragraph at lines 149--152
-\OMS/cmsy/m/n/10.95 !$ \OT1/cmr/m/n/10.95 "no-body has same
- []
-
-
-Underfull \hbox (badness 2486) in paragraph at lines 149--152
-\OT1/cmr/m/n/10.95 num-ber of friends" $\OMS/cmsy/m/n/10.95 !$
- []
-
-
-Underfull \hbox (badness 6412) in paragraph at lines 153--156
-\OT1/cmr/m/n/10.95 all pos-si-ble cases are
- []
-
-
-Overfull \hbox (40.1461pt too wide) in paragraph at lines 121--158
-[] 
- []
-
-[3] [4] (./Note02.aux) ) 
+[2] (./Note02.aux) ) 
 Here is how much of TeX's memory you used:
- 15529 strings out of 492995
- 327152 string characters out of 6132704
+ 15422 strings out of 492995
+ 325218 string characters out of 6132704
  396197 words of memory out of 5000000
- 18772 multiletter control sequences out of 15000+600000
+ 18665 multiletter control sequences out of 15000+600000
  8893 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,71p,825b,679s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb>
-Output written on Note02.pdf (4 pages, 90987 bytes).
+ 55i,11n,71p,449b,205s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb>
+Output written on Note02.pdf (2 pages, 62257 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+ 34 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -5,6 +5,14 @@
 \pagestyle{fancy}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,fit,shapes,calc}
 
 \lhead{Propositional Logic}
 \chead{Asli Akalin | Note 1}
@@ -12,7 +20,7 @@
 
 
 \begin{document}
-\section*{Notation}
+\section*{Terms and Notation}
 \begin{enumerate}
 
 \item
@@ -136,6 +144,103 @@ F & F & F & F & F\\
 \item  Contradictions have a last column of all False values, they are false for all possible assignments of variables.
 \end{enumerate}
 
+
+\section*{Quantifiers}
+\begin{enumerate}
+\item 
+$\forall x$: universal quantifier, "for all x" \\
+$\forall x, P(x) \equiv P({x_1}) \bigwedge P({x_2}) \bigwedge P({x_3}) \bigwedge $ ... for all ${x_i}$ values
+\item
+$\exists x$: existential quantifier, "there exists x", can refer to one or more x (at least one)\\
+$\exists x, P(x) \equiv P({x_1}) \bigvee P({x_2}) \bigvee P({x_3}) \bigvee $ ... for all ${x_i}$ values
+\end{enumerate}
+
+\newpage
+\section*{Graphing Technique for Evaluating Quantifiers}
+\begin{enumerate}
+\item
+\begin{figure}[ht]
+\centering
+\begin{tikzpicture}
+    % draw the sets
+    \filldraw[fill=blue!20, draw=blue!60] (-1.5,0) circle (1cm);
+    \filldraw[fill=red!0, draw=red!60] (1.5,0) circle (1cm);
+
+    % the texts
+    \node at (-1.5,1.5) {$X$};
+    \node at (1.5,1.5) {$Y$};
+
+    % the points in the sets (here I just create nodes to use them later on to position
+    % the circles and the arrows
+    \node (x1) at (-1.5,0.7) {$x_1$};
+    \node (x2) at (-1.5,0.3) {$x_2$};
+     \node (x3) at (-1.5,-0.2) {$...$};
+    \node (x4) at (-1.5, -0.6) {$x_n$};
+    \node (y1) at (1.5,0.7) {$y_1$};
+    \node (y2) at (1.5,0.3) {$y_2$};
+    \node (y3) at (1.5,-0.2) {$...$};
+    \node (y4) at (1.5,-0.7) {$y_m$};
+
+    % draw the arrows
+    \draw[->] (x1) -- (y2);
+    \draw[->] (x2) -- (y2);
+    \draw[->] (x4) -- (y2);
+    \draw[->] (x4) -- (y1);
+
+\end{tikzpicture}
+\caption{Mapping diagram of ($\forall x$, $\exists y$) for some statement P(x,y)}
+\end{figure}
+\begin{enumerate}
+\item $\forall x$ makes sure all x are selected in set of x, for each $x_i$ there will be (at least one) arrow going out, this set of X is all selected. Therefore we can say for all x, there at least some y (one or more) that makes P(x,y) True.
+\item $\forall x$, $\exists y$ does not guarantee that all y values in set Y will have a corresponding x value to make statement P(x,y) true, for example in this example $y_m$ doesn't have a x pair. \newline$\forall x$, $\exists y$ means all $x_i$ can point at the same y value, or different y values.
+\item Only thing known for certain here is that you can pick any x value, and you can find a specific y' value for that x make $P(x, y')$ correct, $y'$ can be the same for all x or each x might use different y values.
+\end{enumerate}
+
+
+
+\begin{figure}[ht]
+\centering
+\begin{tikzpicture}
+    % draw the sets
+    \filldraw[fill=blue!0, draw=blue!60] (-1.5,0) circle (1cm);
+    \filldraw[fill=red!20, draw=red!60] (1.5,0) circle (1cm);
+
+
+    % the texts
+    \node at (-1.5,1.5) {$X$};
+    \node at (1.5,1.5) {$Y$};
+
+    % the points in the sets (here I just create nodes to use them later on to position
+    % the circles and the arrows
+    \node (x1) at (-1.5,0.7) {$x_1$};
+    \node (x2) at (-1.5,0.3) {$x_2$};
+     \node (x4) at (-1.5,-0.2) {$...$};
+    \node (x5) at (-1.5, -0.6) {$x_n$};
+    \node (y1) at (1.5,0.7) {$y_1$};
+    \node (y2) at (1.5,0.3) {$y_2$};
+    \node (y3) at (1.5,-0.2) {$...$};
+    \node (y4) at (1.5,-0.7) {$y_m$};
+
+    % draw the arrows
+    \draw[->] (x2) -- (y1);
+    \draw[->] (x2) -- (y2);
+    \draw[->] (x2) -- (y3);
+    \draw[->] (x2) -- (y4);
+    \draw[->] (x5) -- (y2);
+
+\end{tikzpicture}
+\caption{Mapping diagram of ($\exists x$, $\forall y$) for some statement P(x,y)}
+\end{figure}
+\item 
+\begin{enumerate}
+\item $\exists x$ makes sure that there is (at least) one x, x' such that it can be paired with every single y value to make the statement P(x,y) correct. In this case the guarantee is that the set Y is covered.
+\item $\exists x$, $\forall y$ doesn't mean there is only one x that can make P(x,y) correct. For example in this example $y_2$ can be paired with $x_2$ or $x_n$. 
+\item However $\exists x$, $\forall y$ does enforce that if we took let's say $y_11$, $y_167$ and $y_4$, we would be able to find at least one specific x that can be paired with all those values to make P(x,y) correct.
+\end{enumerate}
+\item Be careful with what the order of quantifiers guarantee and what they might satisfy in certain cases!! For example $\exists x$, $\forall y$ might mean that there are two x values $x_i$ and $x_j$ such that all y values can be paired with either to make P(x,y) but it does not guarantee that some x, $x_k$ will have a corresponding y value to make P(x,y) correct. 
+
+\end{enumerate}
+\newpage
 \section*{Useful Notes}
 \begin{enumerate}
 \item 
@@ -146,7 +251,6 @@ ${x,y}\in R$
 \item "positive integer x, ..." can be converted as $\forall x \in Z, x>0 \Rightarrow$ ... It might be easier to interpret these phases as "for all integers x, if x is positive, then ..."
 \end{enumerate}
 Key Point: If you are not sure when to use quantifiers and when to use implications, look for a way to rephrase the sentence using "if ..., then ..." to see if you can use implications. "if x is positive, then..." or "if x and y are distinct, then ..."
-\newpage
 \item To show something does not exist you can use two main structures:
 \begin{enumerate}
 \item "for all possible things, it cannot happen" : using $\forall$ and $\neq$
@@ -159,6 +263,21 @@ Key Point: these two structures are essentially the same if you distribute the n
 \item  "can find" means "there exists"
 \item  "a between x and y" can be shown as $ (x < a <y) \vee (y<  a <x)$
 \item "distinct x and y" means $x \neq y$
-
 \end{enumerate}
+\newpage
+\section*{Review Questions}
+\begin{enumerate}
+\item If chemical plant pollutes river, fish die. If fish die, did the chemical plant pollute water?
+\item Are these statements logically equivalent? a) If plant pollutes, fish die. b) if fish die, plant pollutes.
+\item $(\forall x \in Z) (\exists y \in Z) (y > x)$? $(\exists y \in Z) (\forall x \in Z)  (y > x)$?
+\end{enumerate}
+
+\section*{Answers}
+\begin{enumerate}
+\item First, define P(x) as "chemical plant pollutes water" and Q(x) as "fish die." We have "if chemical plant pollutes river, fish die" known to be True: $P(x) \Rightarrow Q(x) \equiv T$. The question asks if fish die, $Q(x) \equiv T$, did the chemical plant pollute the water, $P(x) \equiv T$? Using the implication definition, we know that $P(x) \Rightarrow Q(x)$ and $Q(x)$ True can mean $P(x)$ is either True or False, since $T \Rightarrow T$ and $F \Rightarrow T$ both evaluate to T. So, by knowing fish died and knowing one of the reasons fish dies is chemical plant pollution, we cannot conclude that chemical plant polluted the water. Intuitively, we can see that fish might have died from a different reason. So, the fact that fish died does not necessarily mean chemical plant pollutes water. 
+Key Point: P is sufficient for Q (proving P allows you to conclude Q is true, since if $P \rightarrow Q$ is true and P is true, Q has to be true) but Q is necessary for P (for P to be true Q is required to be true, because if $P \rightarrow Q$ is true and Q is false, P has to be false to make the implication still be true).
+\item They are not logically equivalent. They are the converse of each other. If plant pollutes, fish will die for sure, so if fish are alive it is safe to say plant is not polluting. But fish can die for many reasons, so just because fish die we can't be certain that plant is polluting. (Exercise inception: prove these explanatory sentences using logic language.)
+\item Frist statement says for each integer x, we can find at least one integer y that is bigger than x. True since there is always a bigger integer. Second statement says that there is one integer, call it y, such that it is bigger than all integers. False since there is no "biggest integer"
+\end{enumerate}
+
 \end{document}
