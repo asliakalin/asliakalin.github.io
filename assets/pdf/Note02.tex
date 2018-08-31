@@ -12,7 +12,7 @@
 
 \lhead{Proofs}
 \chead{Asli Akalin | Note 2}
-\rhead{Summer 2018}
+\rhead{Fall 2018}
 
 
 \begin{document}
@@ -32,28 +32,30 @@
 Assume P, tweak stuff therefore get Q. & 
 Assume $\neg Q$, tweak stuff, therefore get $\neg P$ & 
 Assume $\neg P$, tweak stuff, show contradiction by showing that $\neg P \Rightarrow R$ and $ \neg P \Rightarrow \neg R$. Since the individual implications has to be True, $ \neg P \Rightarrow (R \wedge \neg R)$ has to hold. Notice $(R \wedge \neg R)) \equiv F$. So $ \neg P \Rightarrow F$ can only hold if $\neg P$ is false, ($F \Rightarrow F \equiv T$). So, $\neg P \equiv F \Rightarrow P \equiv T$. Thus P has to be T. & 
-list all of exhaustive cases. \\
+Basically, if nothing else works, list all of exhaustive cases and see what happens. \\
 
 \hline 
 
--When you an use the info given with P to derive info that eventually leads you to Q & 
+-When you can use the info given with P to derive info that eventually leads you to Q & 
 - When the info given from P is vague or hard to derive info from, assuming $\neg Q$ gives you more information and easier to derive conclusions from & -When there is only a single statement to be proven without an implication & -Usually when nothing else works\newline -But technically you can do all proofs using by cases, if you are determined enough. \\
 
 \hline
 Can use when: & Can use when: & Can use when: & Can use when: \\
-- specific definitions given in P such as "perfect square," "odd," "divisible by 5" can be used as stepping stones to get to next step \newline
-- Assuming P immediately gives you information about other variables in the question (such as for odd n, $n = m^2$, means m has to be odd etc) & 
+- specific definitions given in P such as perfect square, odd, divisible by 5 etc can be used as stepping stones to get to next step \newline
+- In general, if assuming P immediately gives you information about other variables in the question \newline
+- For example, for odd n, you can immediately say if $n = m^2$, then m has to be odd & 
 
-- P doesn't give enough information to move forward, is to vague or hard to assume \newline - $\neg Q$ is easier to assume, use and expand from \newline 
-- when P is "n bigger/smaller than 6" (covers all n bigger than 6, hard to build on) \newline 
-- when $\neg Q$ is a simple statement that can easily be negated & 
+- P doesn't give enough information to move forward, is to vague or hard to assume and $\neg Q$ is easier to assume, use and expand from \newline 
+- For example if you are given P = $n > 6$, that statement covers all n bigger than 6, which is infinitely many n values, hard to build on since requires multiple values to satisfy everything you will show \newline 
+- Also helps if $\neg Q$ is a simple statement that can easily be negated & 
 
-- Mostly when there is a simple statement like "there exists," "there is," without an implicit implication \newline
+- Mostly when there is a simple statement like "there exists," "there is" without an explicit implication  given \newline
 - P is easy to negate and develop on: \newline
-- "there are infinite prime numbers" $\rightarrow$ "there are finite prime numbers" $\rightarrow$ "there is a largest prime number" \newline
-- "at least 2 people have same number of friends" $\rightarrow$ "nobody has same number of friends" $\rightarrow$ "everybody has a unique number of friends"  & 
-- Either case a, or case b, or case c ... has to occur but it is not possible to know which one will. \newline
-- Only can be used when all possible cases are known, so be careful with infinite sets. \newline
+- For example we can negate "there are infinite prime numbers" as "there are finite prime numbers" which implies that "there is a largest prime number" \newline
+- "at least 2 people have same number of friends" can be negated as "nobody has same number of friends" which would imply "everybody has a unique number of friends"  & 
+
+- Either case a, or case b, or case c ... has to occur but it is not possible to know which one will, so the idea is to cover all of them. \newline
+- Can only be used when all possible cases are known, so be careful with infinite sets. \newline
 - For example, the values n can take in the set Natural Numbers can be separated into cases as n=0, n=1, n=2 ... (which is hard to take into account one by one) or as $n<4, n=4, n>4$ etc, so define cases carefully. \\ 
 \hline
 \end{tabular}
@@ -62,7 +64,7 @@ Can use when: & Can use when: & Can use when: & Can use when: \\
 \newpage
 \section*{Useful Notes}
 \begin{enumerate}
-\item Basic Negation Keypoints
+\item Basic Negation Keypoints (notice $\rightarrow$ is not an implication here but shows the negation)
 \begin{enumerate}
 \item everybody does P $\rightarrow$  there exists (at least one) person that does not P
 \item there exists (at least one) n such that P $\rightarrow$ all n are (not P)

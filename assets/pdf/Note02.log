@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  30 AUG 2018 14:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  31 AUG 2018 09:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -701,11 +701,6 @@ Underfull \hbox (badness 2221) in paragraph at lines 34--34
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-[]|\OT1/cmr/m/n/10.95 list all of ex-haus-tive
- []
-
-
 Underfull \hbox (badness 1117) in paragraph at lines 40--40
 []|\OT1/cmr/m/n/10.95 -When there is only a
  []
@@ -726,52 +721,42 @@ Underfull \hbox (badness 1231) in paragraph at lines 40--41
  []
 
 
-Underfull \hbox (badness 6625) in paragraph at lines 44--45
+Underfull \hbox (badness 6625) in paragraph at lines 44--46
 []|\OT1/cmr/m/n/10.95 - spe-cific def-i-ni-tions
  []
 
 
-Underfull \hbox (badness 5161) in paragraph at lines 44--45
-\OT1/cmr/m/n/10.95 fect square," "odd,"
+Underfull \hbox (badness 3049) in paragraph at lines 44--46
+\OT1/cmr/m/n/10.95 - In gen-eral, if as-
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 44--45
-\OT1/cmr/m/n/10.95 di-ately gives you in-
- []
-
-
-Underfull \hbox (badness 3668) in paragraph at lines 47--49
+Underfull \hbox (badness 3668) in paragraph at lines 48--50
 \OT1/cmr/m/n/10.95 in-for-ma-tion to move
  []
 
 
-Underfull \hbox (badness 7047) in paragraph at lines 47--49
-\OT1/cmr/m/n/10.95 ger/smaller than 6"
+Underfull \hbox (badness 1515) in paragraph at lines 52--55
+\OT1/cmr/m/n/10.95 - For ex-am-ple we can
  []
 
 
-Underfull \hbox (badness 3803) in paragraph at lines 47--49
-\OT1/cmr/m/n/10.95 (cov-ers all n big-ger
+Underfull \hbox (badness 5771) in paragraph at lines 52--55
+\OT1/cmr/m/n/10.95 body has same num-
  []
 
 
-Underfull \hbox (badness 3439) in paragraph at lines 51--54
-\OMS/cmsy/m/n/10.95 !$ \OT1/cmr/m/n/10.95 "no-body has same
+Underfull \hbox (badness 4832) in paragraph at lines 52--55
+\OT1/cmr/m/n/10.95 ber of friends" which
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 51--54
-\OT1/cmr/m/n/10.95 num-ber of friends" $\OMS/cmsy/m/n/10.95 !$
- []
-
-
-Underfull \hbox (badness 6412) in paragraph at lines 55--58
+Underfull \hbox (badness 6412) in paragraph at lines 57--60
 \OT1/cmr/m/n/10.95 all pos-si-ble cases are
  []
 
 
-Overfull \hbox (40.1461pt too wide) in paragraph at lines 23--60
+Overfull \hbox (40.1461pt too wide) in paragraph at lines 23--62
 [] 
  []
 
@@ -788,7 +773,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 Here is how much of TeX's memory you used:
  15422 strings out of 492995
  325218 string characters out of 6132704
- 396197 words of memory out of 5000000
+ 397191 words of memory out of 5000000
  18665 multiletter control sequences out of 15000+600000
  8893 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -799,7 +784,7 @@ nts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb>
-Output written on Note02.pdf (2 pages, 62257 bytes).
+Output written on Note02.pdf (2 pages, 62462 bytes).
 PDF statistics:
  34 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
