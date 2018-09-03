@@ -125,7 +125,7 @@ img {
 
 
 #heyhey:hover {
-	opacity: 0.8;
+	opacity: 0.9;
 	transition-duration: 1s;
 	transform: rotate(360deg);
 	transition-duration: 0.2s;
