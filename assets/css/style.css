@@ -2028,6 +2028,8 @@ img {
 		#avatar:hover {
 			border-style:none;
 			opacity: 0.8;
+			transform: rotate(360deg);
+			transition-duration: 5s;
 		}
 
 
