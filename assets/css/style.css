@@ -65,6 +65,23 @@ img {
 	vertical-align:middle;
 	text-decoration: none;
 }
+
+#container{
+	padding: 5em 5em 1em 5em;
+	text-align: center;
+	position: relative;
+}
+
+.text{
+	position:absolute;
+	top: 72%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  	font-size: 40px;
+  	color:#3C183B;
+  	text-shadow: 2px 3px #ffffff;
+}
+
 .pics {
 	border: 0;
 }
@@ -110,6 +127,7 @@ img {
 }
 
 #heyhey {
+	visibility: visible;
 	position: relative;
 	border-radius: 20%;
     width: 44%;
@@ -125,7 +143,7 @@ img {
 
 
 #heyhey:hover {
-	opacity: 0.9;
+	z-index: 0;
 	
 }
 
