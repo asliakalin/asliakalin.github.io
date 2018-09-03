@@ -11,6 +11,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		text-decoration: none;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -43,6 +44,7 @@
 		-webkit-text-size-adjust: none;
 	}
 
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -52,22 +54,272 @@
 	}
 
 img {
+    border-radius: 1%;
+    padding-bottom: 10px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align:middle;
+	text-decoration: none;
+}
+
+#avatar {
     border-radius: 50%;
     width: 45%;
     padding-bottom: 25px;
-    opacity: 0.0;
     margin: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	text-decoration: none;
 }
 
-img:hover {
-    opacity: 1.0;
+#avatar2 {
+    border-radius: 50%;
+    width: 43%;
+    padding-bottom: 25px;
+    margin: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
 }
 
 
+#one {
+	position: relative;
+	border-radius: 3%;
+    width: 44%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+
+#two {
+	position: relative;
+	border-radius: 3%;
+    width: 25%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin:0px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+
+#three {
+	position: relative;
+	border-radius: 3%;
+    width: 29%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin:0px;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: left;
+}
+
+#four {
+	position: relative;
+	border-radius: 3%;
+    width: 46%;
+    margin:0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+
+#eight {
+	position: relative;
+	border-radius: 4%;
+    width: 19%;
+    margin:0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+
+#six {
+	position: relative;
+	border-radius: 3%;
+    width: 34%;
+    margin:0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+
+#five {
+	position: relative;
+	border-radius: 3%;
+    width: 19%;
+    margin:0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+
+#seven {
+	position: relative;
+	border-radius: 3%;
+    width: 32%;
+    margin:0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+
+#nine {
+	position: relative;
+	border-radius: 3%;
+    width: 14%;
+    margin:0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+#ten {
+	position: relative;
+	border-radius: 3%;
+    width: 34%;
+    margin:0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+
+#eleven {
+	position: relative;
+	border-radius: 3%;
+    width: 28%;
+    margin:0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+
+#twelve {
+	position: relative;
+	border-radius: 3%;
+    width: 30%;
+    margin:0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+
+#thirteen {
+	position: relative;
+	border-radius: 3%;
+    width: 39%;
+    margin:0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+
+#notlast {
+	position: relative;
+	border-radius: 3%;
+    width: 60%;
+    margin:0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+#notnotlast {
+	position: relative;
+	border-radius: 3%;
+    width: 34%;
+    margin:0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+
+#last {
+	position: relative;
+	border-radius: 3%;
+    width: 20%;
+    margin:0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+
+#last3 {
+	position: relative;
+	border-radius: 3%;
+    width: 23%;
+    margin:0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+
+#last4 {
+	position: relative;
+	border-radius: 3%;
+    width: 55%;
+    margin:0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
 /* Grid */
 
 	.row {
@@ -1697,13 +1949,46 @@ img:hover {
 		-ms-transition: color 0.2s ease, border-bottom 0.2s ease;
 		transition: color 0.2s ease, border-bottom 0.2s ease;
 		text-decoration: none;
-		border-bottom: dotted 1px;
+		border-left: 10px;
 		color: inherit;
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
+			border-bottom-color: grey;
+			color:black;
+			border-style: none;
 		}
+
+		#hello:hover {
+			padding-left:10px;
+			padding-right: 10px;
+			border-bottom-color: grey;
+			border-style: solid;
+			border-width: 2px; 
+			border-color: #F3DEF3;
+    		border-radius: 5px;
+		}
+		#hello2 {
+			color:black;
+			border-bottom-style: dotted;
+			border-color: black;
+			border-width: 2px;
+
+		}
+
+
+		#hello2:hover {
+			border-bottom-style: solid;
+			border-width: 2px; 
+			border-color: black;
+			text-decoration: none;
+		}
+
+		#avatar:hover {
+			border-style:none;
+			opacity: 0.8;
+		}
+
 
 	strong, b {
 		font-weight: 400;
@@ -2433,6 +2718,7 @@ img:hover {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		text-decoration: none;
 	}
 
 		.image img {
@@ -3896,7 +4182,19 @@ ul.action {
 
 		}
 
-
+/* Intro */
+	#intro {
+		position: relative;
+		background-color: #FFFFFF;
+		opacity: 0.7;
+		color: #3C183B;
+		border-radius: 0.25em;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 1px;
+		padding-top:35px;
+		margin: 5px;
+	}
 
 /* Wrapper */
 
