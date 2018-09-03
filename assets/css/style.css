@@ -65,6 +65,25 @@ img {
 	vertical-align:middle;
 	text-decoration: none;
 }
+.pics {
+	border: 0;
+}
+
+.smallpics {
+	border:0;
+}
+
+.smallpics:hover {
+	transition-duration: 0.2s;
+	transform: scale(1.9);
+	z-index: 1;
+}
+
+.pics:hover {
+	transition-duration: 0.2s;
+	transform: scale(1.4);
+	z-index: 1;
+}
 
 #avatar {
     border-radius: 50%;
