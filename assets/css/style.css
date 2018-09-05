@@ -114,17 +114,7 @@ img {
 	z-index: 1;
 }
 
-#avatar {
-    border-radius: 50%;
-    width: 42%;
-    padding-bottom: 25px;
-    margin: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-	text-decoration: none;
-}
+
 
 #avatar2 {
     border-radius: 50%;
@@ -136,6 +126,7 @@ img {
 	font: inherit;
 	vertical-align: baseline;
 	text-decoration: none;
+
 }
 
 #heyhey {
@@ -2036,25 +2027,28 @@ img {
 			border-color: #F3DEF3;
     		border-radius: 5px;
 		}
-		#hello2 {
-			color:black;
-			border-bottom-style: dotted;
-			border-color: black;
-			border-width: 2px;
-
-		}
+		
 
 
-		#hello2:hover {
-			border-bottom-style: solid;
-			border-width: 2px; 
-			border-color: black;
+		#avatar {
+		    border-radius: 50%;
+		    width: 42%;
+		    margin: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
 			text-decoration: none;
+			padding-bottom: 0px;
+
+			
 		}
 
 		#avatar:hover {
-			border-style: solid black;;
-			opacity: 0.8;
+			border-style: solid;
+			border-color: black;
+			border-width: 12px;
+			opacity: 0.9;
 		}
 
 
