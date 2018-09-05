@@ -2027,7 +2027,19 @@ img {
 			border-color: #F3DEF3;
     		border-radius: 5px;
 		}
+
+		#hello2 {
+			color:black;
+			border-bottom-style: dotted;
+			border-color: black;
+			border-width: 2px;
+ 		}
 		
+ 		#hello2:hover {
+			border-bottom-style: solid;
+			border-width: 2px; 
+			border-color: black;
+		}
 
 
 		#avatar {
