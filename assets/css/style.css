@@ -72,6 +72,10 @@ img {
 	position: relative;
 }
 
+#spacepls {
+	padding-bottom: 70px;
+}
+
 .text{
 	position:absolute;
 	top: 72%;
@@ -2043,9 +2047,8 @@ img {
 		#avatar:hover {
 			border-style:none;
 			opacity: 0.8;
-			transform: rotate(360deg);
-			transition-duration: 5s;
 		}
+
 
 
 	strong, b {
@@ -2350,6 +2353,12 @@ img {
 		button:hover,
 		.button:hover {
 			background-color: rgba(255, 255, 255, 0.075);
+		}
+
+
+		#t:hover {
+			background-color: black;
+			transform:scale(1.2);
 		}
 
 		input[type="submit"]:active,
@@ -2876,6 +2885,208 @@ img {
 					padding-right: 0 !important;
 				}
 
+		#icon {
+			width: 100px;
+			margin-right: 15px;
+			padding-left:0px;
+
+		}
+
+		#iconsmall {
+			width: 120px;
+			margin-right: 10px;
+			padding-left:0px;
+		}
+
+		#iconbig {
+			width: 80px;
+			margin-right: 15px;
+			padding-left:0px;
+		}
+
+		#icontiny {
+			width: 180px;
+			margin-right: 15px;
+			padding-left:0px;
+		}
+
+		#iconmed {
+			width: 105px;
+			margin-right: 10px;
+			padding-left:0px;
+		}
+
+		#iconmed2 {
+			width: 105px;
+			padding-left: 0px;
+		}
+
+		#iconstatic {
+			width: 125px;
+			margin-right: 15px;
+			padding-left:0px;
+		}
+
+		#icon:hover, #iconsmall:hover, #iconbig:hover, #iconmed:hover, #icontiny:hover{
+			transform: scale(1.2);
+		}
+
+		.maincontainer .items{
+		  position: relative;
+		  display: inline-block;
+
+		}
+
+		#rowone {
+			display:flex;
+		}
+
+		.row1{
+			flex:1;
+		}
+
+		#rowone .row1{
+		  position: relative;
+		  display: inline-block;
+		  vertical-align: top;
+		}
+
+		.dropmenu1 {
+			display: none;
+		    position: absolute;
+		    z-index: 1;
+		    font-size: 18px;
+		    margin-left: 5px;
+		   	font-weight: bold;
+		   	width: 98px;
+
+		}
+		
+		#icon1:hover .dropmenu1 {
+			display: block;
+			background: transparent;
+			size: 0.4;
+			z-index: 1;
+		}
+
+		.dropmenu2 {
+			display: none;
+		    position: absolute;
+		    z-index: 1;
+		    font-size: 18px;
+		    margin-left: 0px;
+		    font-weight: bold;
+
+		}
+		
+		#icon2:hover .dropmenu2 {
+			display: block;
+			background: transparent;
+			size: 0.4;
+			z-index: 1;
+		}
+
+		.dropmenu3 {
+			display: none;
+		    position: absolute;
+		    z-index: 1;
+		    font-size: 18px;
+		    margin-left: 6%;
+		    font-weight: bold;
+		}
+		
+		#icon3:hover .dropmenu3 {
+			display: block;
+			background: transparent;
+			size: 0.4;
+			z-index: 1;
+		}
+
+		.dropmenu4 {
+			display: none;
+		    position: absolute;
+		    z-index: 1;
+		    font-size: 18px;
+		    margin-left: 17%;
+		    font-weight: bold;
+
+		}
+		
+		#icon4:hover .dropmenu4 {
+			display: block;
+			background: transparent;
+			size: 0.4;
+			z-index: 1;
+		}
+
+		.dropmenu5 {
+			display: none;
+		    position: absolute;
+		    z-index: 1;
+		    font-size: 18px;
+		    margin-left: 8%;
+		    font-weight: bold;
+
+		}
+		
+		#icon5:hover .dropmenu5 {
+			display: block;
+			background: transparent;
+			size: 0.4;
+			z-index: 1;
+		}
+
+		.dropmenu6 {
+			display: none;
+		    position: absolute;
+		    z-index: 1;
+		    font-size: 18px;
+		    margin-left: 8%;
+		    font-weight: bold;
+
+		}
+		
+		#icon6:hover .dropmenu6 {
+			display: block;
+			background: transparent;
+			size: 0.4;
+			z-index: 1;
+		}
+
+		.dropmenu7 {
+			display: none;
+		    position: absolute;
+		    z-index: 1;
+		    font-size: 18px;
+		    font-weight: bold;
+		    padding-left:50px;
+		}
+		
+		#icon7:hover .dropmenu7 {
+			display: block;
+			background: transparent;
+			size: 0.4;
+			z-index: 1;
+		}
+
+		.dropmenu8 {
+			display: none;
+		    position: absolute;
+		    z-index: 1;
+		    font-size: 18px;
+		    font-weight: bold;
+		    padding-left:0px;
+		    padding-right: 20px;
+		    width: 298px;
+		}
+		
+		#icon8:hover .dropmenu8 {
+			display: block;
+			background: transparent;
+			size: 0.4;
+			z-index: 1;
+		}
+
 		ul.actions {
 			cursor: default;
 			list-style: none;
@@ -2981,6 +3192,7 @@ ul.action {
 			list-style: none;
 			padding-left: 30;
 			display: inline-block;
+			vertical-align: middle;
 		}
 
 			ul.action li {
