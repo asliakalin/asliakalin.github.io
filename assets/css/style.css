@@ -2906,6 +2906,12 @@ img {
 			padding-left:0px;
 		}
 
+		#iconsmall2 {
+			width: 120px;
+			margin-right: 2px;
+			padding-left:0px;
+		}
+
 		#iconbig {
 			width: 80px;
 			margin-right: 15px;
@@ -2935,7 +2941,7 @@ img {
 			padding-left:0px;
 		}
 
-		#icon:hover, #iconsmall:hover, #iconmed2:hover, #iconbig:hover, #iconmed:hover, #icontiny:hover{
+		#icon:hover, #iconsmall:hover, #iconsmall2:hover, #iconmed2:hover, #iconbig:hover, #iconmed:hover, #icontiny:hover{
 			transform: scale(1.2);
 		}
 
