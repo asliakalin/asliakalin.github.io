@@ -2935,7 +2935,7 @@ img {
 			padding-left:0px;
 		}
 
-		#icon:hover, #iconsmall:hover, #iconbig:hover, #iconmed:hover, #icontiny:hover{
+		#icon:hover, #iconsmall:hover, #iconmed2:hover, #iconbig:hover, #iconmed:hover, #icontiny:hover{
 			transform: scale(1.2);
 		}
 
@@ -3049,8 +3049,9 @@ img {
 		    position: absolute;
 		    z-index: 1;
 		    font-size: 18px;
-		    margin-left: 8%;
+		    margin-left: 1%;
 		    font-weight: bold;
+		    width: 120px;
 
 		}
 		
@@ -3068,6 +3069,7 @@ img {
 		    font-size: 18px;
 		    font-weight: bold;
 		    padding-left:50px;
+
 		}
 		
 		#icon7:hover .dropmenu7 {
