@@ -66,6 +66,10 @@ img {
 	text-decoration: none;
 }
 
+#title {
+	text-decoration: underline;
+}
+
 #container{
 	padding: 5em 5em 1em 5em;
 	text-align: center;
@@ -73,7 +77,11 @@ img {
 }
 
 #spacepls {
-	padding-bottom: 70px;
+	padding-bottom: 100px;
+}
+
+#morespacepls {
+	padding-bottom: 90px;
 }
 
 .text{
@@ -108,7 +116,7 @@ img {
 
 #avatar {
     border-radius: 50%;
-    width: 45%;
+    width: 42%;
     padding-bottom: 25px;
     margin: 0;
 	border: 0;
@@ -2045,7 +2053,7 @@ img {
 		}
 
 		#avatar:hover {
-			border-style:none;
+			border-style: solid black;;
 			opacity: 0.8;
 		}
 
