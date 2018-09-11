@@ -77,7 +77,7 @@ img {
 }
 
 #spacepls {
-	padding-bottom: 100px;
+	padding-bottom: 70px;
 }
 
 #morespacepls {
@@ -148,6 +148,13 @@ img {
 #heyhey:hover {
 	z-index: 0;
 	
+}
+
+#meintro {
+	width: 79%;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 35px;
 }
 
 #one {
