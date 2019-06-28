@@ -2051,7 +2051,7 @@ img {
 
 		#avatar {
 		    border-radius: 50%;
-		    width: 42%;
+		    width: 27%;
 		    margin: 0;
 			border: 0;
 			font-size: 100%;
@@ -2059,6 +2059,9 @@ img {
 			vertical-align: baseline;
 			text-decoration: none;
 			padding-bottom: 0px;
+			border-style: solid;
+			border-color: black;
+			border-width: 5px;
 
 			
 		}
