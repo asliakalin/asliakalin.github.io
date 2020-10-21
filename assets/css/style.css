@@ -380,7 +380,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #728394;
+  color: #28b0d5;
 }
 
 .about .content ul {
@@ -827,6 +827,97 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Teaching Materials
+--------------------------------------------------------------*/
+.teaching .nav-tabs {
+  border: 0;
+}
+
+.teaching .nav-link {
+  border: 0;
+  padding: 20px;
+  color: #555555;
+  border-radius: 0;
+  border-left: 5px solid #fff;
+}
+
+.teaching .nav-link h4 {
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.teaching .nav-link p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.teaching .nav-link:hover h4 {
+  color: #008cba;
+}
+
+.teaching .nav-link.active {
+  background: #f7fcfc;
+  border-color: #008cba;
+}
+
+.teaching .nav-link.active h4 {
+  color: #008cba;
+}
+
+.teaching .tab-pane.active {
+  -webkit-animation: slide-down 0.5s ease-out;
+  animation: slide-down 0.5s ease-out;
+}
+
+.teaching .tab-pane img {
+  float: left;
+  max-width: 300px;
+  padding: 0 15px 15px 0;
+}
+
+@media (max-width: 768px) {
+  .teaching .tab-pane img {
+    float: none;
+    padding: 0 0 15px 0;
+    max-width: 100%;
+  }
+}
+
+.teaching .tab-pane h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #008cba;
+}
+
+.teaching .tab-pane p {
+  color: #777777;
+}
+
+.teaching .tab-pane p:last-child {
+  margin-bottom: 0;
+}
+
+@-webkit-keyframes slide-down {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials .section-header {
@@ -943,12 +1034,9 @@ section {
   color: #728394;
 }
 
-.contact .info .email,
-.contact .info .phone {
-  margin-top: 40px;
-}
-
 .contact .info .email:hover i,
+.contact .info .oh:hover i,
+.contact .info .discussion:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
   background: #0563bb;
@@ -1181,4 +1269,155 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 50%;
+  align-content: center;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 3px solid #008cba;
+  border-radius: 15px;
+}
+
+.button:hover {
+  background-color: #008cba;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  position: relative;
+  margin: 10px;
+}
+
+.pic1 {
+  position: absolute;
+  border-radius: 15px;
+  opacity: 1;
+  z-index: 1;
+  border: 5px solid #0563bb;
+}
+
+.pic2 {
+  position: absolute;
+  border-radius: 15px;
+  border: 6px solid #28b0d5;
+}
+
+.pic1:hover {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.content {
+  margin-left: 35%;
+}
+
+.nospace {
+  margin-left: 5%;
+}
+
+/*--------------------------------------------------------------
+# Tabs
+--------------------------------------------------------------*/
+.tabs .nav-tabs {
+  border: 0;
+}
+
+.tabs .nav-link {
+  border: 1px solid #b9b9b9;
+  padding: 15px;
+  transition: 0.3s;
+  color: #111111;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabs .nav-link i {
+  padding-right: 15px;
+  font-size: 48px;
+}
+
+.tabs .nav-link h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.tabs .nav-link:hover {
+  color: #0563bb;
+}
+
+.tabs .nav-link.active {
+  background: #0563bb;
+  color: #fff;
+  border-color: #0563bb;
+}
+
+@media (max-width: 768px) {
+  .tabs .nav-link i {
+    padding: 0;
+    line-height: 1;
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 575px) {
+  .tabs .nav-link {
+    padding: 15px;
+  }
+  .tabs .nav-link i {
+    font-size: 24px;
+  }
+}
+
+.tabs .tab-content {
+  margin-top: 30px;
+}
+
+.tabs .tab-pane h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.tabs .tab-pane ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tabs .tab-pane ul li {
+  padding-bottom: 10px;
+}
+
+.tabs .tab-pane ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #0563bb;
+}
+
+.tabs .tab-pane p:last-child {
+  margin-bottom: 0;
 }
